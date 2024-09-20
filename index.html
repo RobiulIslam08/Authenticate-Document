@@ -1,11 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+	<script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    /* Custom font family for the entire page */
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+  </head>
+  <body >
+    <!-- navbar -->
+    <nav class="bg-[#822433] flex justify-between px-2 md:px-4 py-1 md:py-3">
+      <!-- left -->
+      <div class="flex items-center gap-4">
+        <!-- finger -->
+          <img src="./images/fingerprint.png" alt="" class="md:h-[93px] pl-2 md:pl-0 h-[68px]" />
+       
+		<!-- text -->
+        <div class="text-white hidden md:flex flex-col -mt-3">
+          <h1 class="text-[40px] font-medium pb-[4px]">Authenticate your document</h1>
+          <p class="text-[14px] leading-4">Thank you for submitting your document for verification.</p>
+		  <p class="text-[14px]">Please find below the answer to your request.
+		</p>
+        </div>
+      </div>
+
+      <!-- right -->
+      <div>
+		<img src="./images/bvLogo.png" class="md:h-[100px] h-[73px] pb-[2px] md:pb-0" alt="">
+	  </div>
+    </nav>
+
+    <main class="bg-[url('./images/background_industry.jpg')]">
+      <!-- card -->
+        <div >
+          <!-- heading -->
+           <div class="bg-[url('./images/content_industry_top.png')]">
+            <img src="circle_success.png" class="flex justify-center items-center" alt="">
+           </div>
+        </div>
+    </main>
+  </body>
 </html>
