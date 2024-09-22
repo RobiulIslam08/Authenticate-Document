@@ -14,88 +14,156 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="bg-[#822433] flex justify-between px-2 md:px-4 py-1 md:py-3">
+    <nav
+      class="bg-[#822433] flex justify-between px-2 md:px-4 py-1 md:py-3 w-full fixed"
+    >
       <!-- Left -->
       <div class="flex items-center gap-4">
         <!-- Fingerprint Image -->
-        <img src="./images/fingerprint.png" alt="" class="md:h-[93px] pl-2 md:pl-0 h-[68px]" />
+        <img
+          src="./images/fingerprint.png"
+          alt=""
+          class="md:h-[93px] pl-2 md:pl-0 h-[68px]"
+        />
 
         <!-- Text -->
         <div class="text-white hidden md:flex flex-col -mt-3">
-          <h1 class="text-[40px] font-medium pb-[4px]">Authenticate your document</h1>
-          <p class="text-[14px] leading-4">Thank you for submitting your document for verification.</p>
-          <p class="text-[14px]">Please find below the answer to your request.</p>
+          <h1 class="text-[40px] font-medium pb-[4px]">
+            Authenticate your document
+          </h1>
+          <p class="text-[14px] leading-4">
+            Thank you for submitting your document for verification.
+          </p>
+          <p class="text-[14px]">
+            Please find below the answer to your request.
+          </p>
         </div>
       </div>
 
       <!-- Right -->
       <div>
-        <img src="./images/bvLogo.png" class="md:h-[100px] h-[73px] pb-[2px] md:pb-0" alt="">
+        <img
+          src="./images/bvLogo.png"
+          class="md:h-[100px] h-[73px] pb-[2px] md:pb-0"
+          alt=""
+        />
       </div>
     </nav>
 
     <!-- Main Content with Background Image -->
-    <main class="bg-[url('./images/background_industry.jpg')] bg-cover bg-center  flex items-center justify-center">
-      <!-- Card -->
-      <div class="w-full md:w-1/2 mx-auto  mt-4 ">
-        <!-- Heading with Centered Image -->
-        <div class="flex justify-center items-center bg-gradient-to-r from-[#b6b6b6] to-[#505050] rounded-t-[30px]" >
-          <img src="./images/circle_success.png" class="md:h-[60px] h-[30px] my-[14px]" alt="Success Icon">
+    <main
+      class="bg-[url('./images/background_industry.jpg')] bg-fixed bg-cover bg-center pb-[10px]"
+    >
+     <!-- Card -->
+      <div class="flex items-center justify-center">
+       
+        <div class="w-full md:w-1/2 mx-auto mt-[95px] md:mt-[140px]">
+          <!-- Heading with Centered Image -->
+          <div
+            class="flex justify-center items-center bg-gradient-to-r from-[#b6b6b6] to-[#505050] rounded-t-[30px]"
+          >
+            <img
+              src="./images/circle_success.png"
+              class="md:h-[60px] h-[30px] my-[14px]"
+              alt="Success Icon"
+            />
+          </div>
+          <!-- body for card -->
+          <div class="bg-white py-[18px] pl-[14px] space-y-1">
+            <div
+              class="flex md:flex-row flex-col leading-4 md:gap-[132px] md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                Deliverable Id :
+              </h1>
+              <p class="text-[12px]">148-2024-022162-EN</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[136px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                Published on :
+              </h1>
+              <p class="text-[12px]">07/07/2024</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[120px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                QR Code Status :
+              </h1>
+              <p class="text-[12px]">Validated</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[177px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">NAME :</h1>
+              <p class="text-[12px]">BABUR ALI</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[198px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">ID :</h1>
+              <p class="text-[12px]">2576791863</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[140px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                VALID UNTIL :
+              </h1>
+              <p class="text-[12px]">06/07/2025</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[180px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">TYPE :</h1>
+              <p class="text-[12px]">SCAFFOLDING ERECTOR AND DISMANTLER</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[153px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                COMPANY :
+              </h1>
+              <p class="text-[12px]">PRIVATE</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[96px] leading-4 md:items-center"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                TRAINING LOCATION :
+              </h1>
+              <p class="text-[12px]">JUBAIL</p>
+            </div>
+            <div
+              class="flex md:flex-row flex-col md:gap-[160px] leading-4 md:items-center pb-5 md:pb-[150px]"
+            >
+              <h1 class="text-[#000000] text-[12px] font-semibold">
+                TRAINER :
+              </h1>
+              <p class="text-[12px]">AHMED NAZEER</p>
+            </div>
+            <h1 class="text-[#000000] text-[12px] font-semibold">
+              For any further information on this document, please contact the
+              issuer of the document.
+            </h1>
+          </div>
+          <!-- Bottom Image at the End of Card -->
+          <div class="flex justify-end mt-auto">
+            <img
+              src="./images/content_industry_bottom.png"
+              class="md:h-14 h-7"
+              alt=""
+            />
+          </div>
         </div>
-        <!-- body for card -->
-         <div class="bg-white py-4 pl-3 space-y-1">
+      </div>
 
-          <div class="flex md:flex-row flex-col leading-4  md:gap-[132px] md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">Deliverable Id :</h1>
-            <p class="text-[12px]">148-2024-022162-EN</p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[136px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">Published on :</h1>
-            <p class="text-[12px]">07/07/2024</p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[120px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">QR Code Status :</h1>
-            <p class="text-[12px]">Validated</p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[177px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">NAME :</h1>
-            <p class="text-[12px]">BABUR ALI</p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[198px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">ID :</h1>
-            <p class="text-[12px]">2576791863</p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[140px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">VALID UNTIL :</h1>
-            <p class="text-[12px]">06/07/2025
-            </p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[180px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">TYPE :</h1>
-            <p class="text-[12px]">SCAFFOLDING ERECTOR AND DISMANTLER
-            </p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[153px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">COMPANY :</h1>
-            <p class="text-[12px]">PRIVATE
-            </p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[96px] leading-4 md:items-center ">
-            <h1 class="text-[#000000] text-[12px] font-semibold">TRAINING LOCATION :</h1>
-            <p class="text-[12px]">JUBAIL
-            </p>
-          </div>
-          <div class="flex md:flex-row flex-col md:gap-[160px] leading-4 md:items-center pb-5 md:pb-[150px]">
-            <h1 class="text-[#000000] text-[12px] font-semibold">TRAINER :</h1>
-            <p class="text-[12px]">AHMED NAZEER
-            </p>
-          </div>
-          <h1 class="text-[#000000] text-[12px] font-semibold ">For any further information on this document, please contact the issuer of the document.</h1>
-         </div>
-        <!-- Bottom Image at the End of Card -->
-  <div class="flex justify-end mt-auto">
-    <img src="./images/content_industry_bottom.png" class="md:h-14 h-7" alt="">
-  </div>
+      <!-- link here for visit -->
+      <div class="flex flex-col items-center justify-center w-[165px] md:w-[195px]">
+        <p class="text-[12px] md:text-[14px]">Visit</p>
+        <p class="font-bold text-[12px] md:text-[14px]">Bureau Veritas Website</p>
       </div>
     </main>
   </body>
